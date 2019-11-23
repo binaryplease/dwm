@@ -1,3 +1,8 @@
+# dwm - dynamic window manager
+
+## Original README
+
+```txt
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
@@ -37,7 +42,7 @@ like this in your .xinitrc:
 
     while xsetroot -name "`date` `uptime | sed 's/.*,//'`"
     do
-    	sleep 1
+        sleep 1
     done &
     exec dwm
 
@@ -46,3 +51,4 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+```
